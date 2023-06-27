@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Invaders Game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/darkly/bootstrap.min.css">
+  <style>
+    canvas {
+      background-color: black;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Invaders Game</h1>
+    <canvas id="gameCanvas" width="500" height="600"></canvas>
+    <div id="gameOver" class="text-center d-none">
+      <h2 class="text-white">Game Over!</h2>
+    </div>
+    <div id="gameWon" class="text-center d-none">
+      <h2 class="text-white">You Won!</h2>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

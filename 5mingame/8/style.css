@@ -1,0 +1,13 @@
+body {
+  background-color: #000000;
+}
+
+canvas {
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+#message {
+  font-size: 40px;
+  color: #ffffff;
+}

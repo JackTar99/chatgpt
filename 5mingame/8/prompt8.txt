@@ -1,0 +1,22 @@
+Acting as an expert html5 programmer, code an HTML5 canvas game entitled Invaders. Code the html using JQuery, and Bootstrap. Please pick the dark bootstrap theme. The background of the canvas should be black.
+
+Make the canvas 500 pixels wide by 600 pixels in height.
+
+Code the game logic in a separate javascript file called 'game.js'
+The game consists of invaders and one defender. Add a new invader to the screen every 1 seconds until there are 20 on the screen. Make sure the is a little space between each invader.
+
+The invaders enter at the top left of the screen and move right 1 pixel per interval until they reach the right edge of the screen. They then move down 50 pixels and start moving left.  They move left until the reach the left edge of the screen. They then move 50 pixels down and begin to move right. The invaders repeat this behavior until they reach the bottom of the screen.
+
+
+ If an invader reaches the bottom of the screen, the game is over.
+
+Each invader should have a timer that is set randomly between 5 and 20 seconds. When the timer expires, the invader should drop a bomb and reset the timer.
+
+When the game is over or the player wins, display the appropriate message in 40 pt text using white letters
+
+The defender is at the bottom of the screen and moves right and left as the player depresses the right and left arrows. When the player press the space bar, it lauches a missle up. If the missile hits an invader, the invader blows up. The player wins when 20 invaders are hit by missiles..
+
+The invaders, bombs, defender, and missiles all have PNG image files.
+
+
+

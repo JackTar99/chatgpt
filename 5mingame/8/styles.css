@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+
+#gameCanvas {
+  border: 1px solid white;
+}
+
+#gameOver, #gameWin {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1, h2 {
+  font-size: 40pt;
+  color: white;
+}
